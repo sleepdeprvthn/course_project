@@ -296,6 +296,7 @@ const historicalMovies = [
 const historicalSlider = document.querySelector('.historical-slider');
 renderMovies(historicalMovies, historicalSlider);
 
+
 // ДОБАВЛЕНИЕ АТРИБУТА ПО УСЛОВИЮ ДЛЯ ШАПКИ
 
 let links = document.querySelectorAll('.menu__item > a');
@@ -333,5 +334,3 @@ prevBtn.addEventListener('click', () => {
         slider.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
     }
 });
-
-
