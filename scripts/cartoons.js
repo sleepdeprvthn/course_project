@@ -415,7 +415,7 @@ renderMovies(fantasyMovies, fantasySlider);
 const historicalMovies = [
 
     {
-        img: "images/cartoons/historical/Ван Гог С любовью, Винсент.jpeg",
+        img: "images/cartoons/historical/Ван Гог. С любовью, Винсент.jpeg",
         year: 2017,
         title: "Ван Гог. С любовью, Винсент"
     },
