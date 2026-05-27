@@ -4,22 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webby</title>
+
+    <!-- Подключение fontIcons -->
     <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css">
+    
     <link rel="stylesheet" href="styles/global.css">
-    <script src="./script.js" defer></script>
+    <script src="/scripts/script.js" defer></script>
 </head>
 <body>
-
-    future gradient bg
-    <div class="bg-animation">
-        <div class="floating-orb">
-            <div class="orb1"></div>
-            <!-- <div class="orb2"></div>
-            <div class="orb3"></div>
-        </div> -->
-    </div>
-
-
+    
     <header class="header">
 
         <div class="container">
@@ -27,24 +21,29 @@
             <div class="header__wrapper">
                 
                 <div class="logo">
-                    <img src="images/logo.svg" alt=""> <!-- LOGO -->
+                    Webby
                 </div>
                 <!-- /.logo -->
                 
                 <nav class="header__menu">
                     <ul class="header__menu-list">
+                        
                         <li class="menu__item">
-                            <a href="films.html">Фильмы</a>
+                            <a href="index.html">Фильмы</a>
                         </li>
+
                         <li class="menu__item">
                             <a href="shows.htlm">Сериалы</a>
                         </li>
+
                         <li class="menu__item">
                             <a href="anime.html">Аниме</a>
                         </li>
+
                         <li class="menu__item">
                             <a href="cartoons.html">Мультфильмы</a>
                         </li>
+
                     </ul>
                 </nav>
                 <!-- /.header__menu -->
@@ -53,7 +52,7 @@
                     <input
                         class="search__input"
                         type="text"
-                        placeholder="Введите название"
+                        placeholder="Поиск по жанру"
                     >
 
                     <button class="search__button" type="submit">
@@ -94,9 +93,9 @@
 
             <div class="slider-container">
 
+                <!-- кнопка для пролистывани слайдера влево -->
                 <button class="slider-btn prev">
                     <i class="bx bx-caret-big-left"></i>
-                    
                 </button>
 
                 <div class="slider-wrapper">
@@ -137,6 +136,7 @@
                 </div>
                 <!-- /.slider-wrapper -->
 
+                <!-- кнопка для пролистывани слайдера вправо -->
                 <button class="slider-btn next">
                     <i class="bx bx-caret-big-right"></i>
                 </button>
@@ -153,7 +153,7 @@
                 <h3 class="movies__title">Драма</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider drama-slider">
+                        <div id="drama" class="movies__slider drama-slider">
 
                         </div>
 
@@ -164,7 +164,7 @@
                 <h3 class="movies__title">Боевик</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider action-slider">
+                        <div id="action" class="movies__slider action-slider">
 
                         </div>
 
@@ -175,7 +175,7 @@
                 <h3 class="movies__title">Триллер</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider thriller-slider">
+                        <div id="thriller" class="movies__slider thriller-slider">
 
                         </div>
 
@@ -186,7 +186,7 @@
                 <h3 class="movies__title">Детектив</h3> 
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider detective-slider">
+                        <div id="detective" class="movies__slider detective-slider">
                             
                         </div>
                         
@@ -197,7 +197,7 @@
                 <h3 class="movies__title">Комедия</h3>
                     <div class="movies__wrapper">
                         
-                        <div class="movies__slider comedy-slider">
+                        <div id="comedy" class="movies__slider comedy-slider">
 
                         </div>
 
@@ -208,7 +208,7 @@
                 <h3 class="movies__title">Приключения</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider adventure-slider">
+                        <div id="adventure" class="movies__slider adventure-slider">
 
                         </div>
 
@@ -219,7 +219,7 @@
                 <h3 class="movies__title">Фентези</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider fantasy-slider">
+                        <div id="fantasy" class="movies__slider fantasy-slider">
 
                         </div>
 
@@ -230,7 +230,7 @@
                 <h3 class="movies__title">Исторические</h3>
                     <div class="movies__wrapper">
 
-                        <div class="movies__slider historical-slider">
+                        <div id="historical" class="movies__slider historical-slider">
 
                         </div>
 
@@ -241,11 +241,57 @@
             </div>
             <!-- /.movies__container -->
 
-
-        
     </main>
 
+    
     <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__wrapper">
+
+                <div class="footer__logo">
+                    Webby
+                </div>
+
+
+                <nav class="footer__menu">
+
+                    <a href="./index.html">Фильмы</a>
+                    <a href="./shows.html">Сериалы</a>
+                    <a href="./anime.html">Аниме</a>
+                    <a href="./cartoons.html">Мультфильмы</a>
+
+                </nav>
+                <!-- ./footer__menu -->
+
+
+                <div class="footer__socials">
+
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+
+                </div>
+                <!-- ./footer__socials -->
+
+            </div>
+            <!-- ./footer__wrapper -->
+
+            <p class="footer__copyright">
+                © 2026 Webby. All rights reserved.
+            </p>
+
+        </div>
+         <!-- ./container -->
 
     </footer>
 </body>

@@ -1,4 +1,39 @@
-// ДОБАВЛЕНИЕ HTML-кода ДЛЯ ИНТЕГРИРОВАНИЯ КАРТОЧЕК
+// Поиск по жанру
+
+const searchForm = document.querySelector('.search');
+const searchInput = document.querySelector('.search__input');
+
+const genres = {
+    'драма': 'drama',
+    'боевик': 'action',
+    'триллер': 'thriller',
+    'комедия': 'comedy',
+    'детектив': 'detective',
+    'фентези': 'fantasy',
+    'исторические': 'historical',
+    'приключения': 'adventure'
+};
+
+searchForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const value = searchInput.value.toLowerCase().trim();
+
+    if (genres[value]) {
+        const section = document.querySelector(`#${genres[value]}`);
+        section.scrollIntoView({
+            behavior: 'smooth'
+        });
+    } else {
+        alert('Введите корректный жанр');
+    }
+
+});
+
+searchForm.addEventListener('submit', (event) => {
+
+})
+
+// Добавление HTML-кода для интегрирования карточек
 
 function renderMovies(moviesArray, slider) {
     
@@ -297,7 +332,7 @@ const historicalSlider = document.querySelector('.historical-slider');
 renderMovies(historicalMovies, historicalSlider);
 
 
-// ДОБАВЛЕНИЕ АТРИБУТА ПО УСЛОВИЮ ДЛЯ ШАПКИ
+// Добавление атрибута по условию для шапки
 
 let links = document.querySelectorAll('.menu__item > a');
 for (let i = 0; i < links.length; i++) {
@@ -309,7 +344,7 @@ for (let i = 0; i < links.length; i++) {
 }
 
 
-// АНИМАЦИЯ СЛАЙДЕРА
+// Анимация слайдера
 
 const slider = document.querySelector('.slider');
 

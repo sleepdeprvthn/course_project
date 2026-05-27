@@ -42,7 +42,6 @@
     object-fit: cover;
 }
 
-
 /* BUTTONS */
 
 .slider-btn {
@@ -52,16 +51,15 @@
     border: none;
     border-radius: 3px;
     font-size: 1.2rem;
-    /* background-image: linear-gradient(315deg, #d88989 0%, #b63636 0%, #c80303 74%); */
     background: transparent;
     opacity: 0.8;
     filter: blur(0.3px);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .slider-btn:hover {
-    /* background-image: linear-gradient(315deg, #8b3131 0%, #f30404 74%); */
-    color: #f02525;
+    color: var(--bright-red);
     transform: scale(1.25);
     opacity: 1;
     filter: blur(0px);

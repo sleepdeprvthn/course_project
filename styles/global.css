@@ -2,12 +2,14 @@
 
 @import url(./header.css);
 @import url(./main.css);
+@import url(./footer.css);
 
 :root {
     --black: #0B0B0F; /* main back */
     --light: #b3b3b3;
     --white: #fff;
-    --bright-red: #ad1714;
+    --bright-red: #bd1111;
+    --logo-color: #c21515;
 }
 
 * {
