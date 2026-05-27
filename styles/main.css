@@ -18,7 +18,7 @@
 
 .slider-wrapper {
     overflow: hidden;
-    width: 78rem;
+    width: 78rem;   
 }
 
 .slider {
@@ -78,6 +78,7 @@
 .movies__title {
     font-size: 1.75rem;
     margin-bottom: -1rem;
+    margin-top: 5rem;
 }
 
 .movies__wrapper {
@@ -97,18 +98,18 @@
     gap: 0.8rem;
 }
 
-.movies__slider-img {
+.movies__card {
     width: 100%;
     height: 100%;
     transition: 0.3s;
 }
 
-.movies__slider-img:hover {
+.movies__card:hover {
     transform: scale(1.035);
     opacity: 0.75;
 }
 
-.movies__slider-img img {
+.movies__card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -117,3 +118,17 @@
     border-radius: 0.75rem;
 }
 
+.movies__info {
+    margin-top: 0.7rem;
+}
+
+.movies__info h4 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.movies__info span {
+    color: gray;
+    font-size: 0.95rem;
+}

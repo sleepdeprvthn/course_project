@@ -36,15 +36,19 @@ searchForm.addEventListener('submit', (event) => {
 // Добавление HTML-кода для интегрирования карточек
 
 function renderMovies(moviesArray, slider) {
-    
+   
     moviesArray.forEach(movie => {
-
         slider.innerHTML += `
-        
-            <div class="movies__slider-img">
-                <img src="${movie.img}" alt="">
-            </div>
 
+            <div class="movies__card">
+                <img src="${movie.img}" alt="">
+
+                <div class="movies__info">
+                    <h4>${movie.title}</h4>
+                    <span>${movie.year}</span>
+                </div>
+            </div>
+            
         `;
 
     });
