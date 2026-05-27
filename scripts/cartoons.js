@@ -58,33 +58,49 @@ function renderMovies(moviesArray, slider) {
 // ДРАМЫ--------------------------------------
 
 const dramaMovies = [
+
     {
-        img: "images/cartoons/drama/Реквием по мечте.jpg"
+        img: "images/cartoons/drama/Анастасия.jpg",
+        year: 1997,
+        title: "Анастасия"
     },
 
     {
-        img: "images/cartoons/drama/1+1.jpg"
+        img: "images/cartoons/drama/Балто.jpg",
+        year: 1995,
+        title: "Балто"
     },
 
     {
-        img: "images/cartoons/drama/Вавилон.jpg"
+        img: "images/cartoons/drama/Варежка.jpg",
+        year: 1967,
+        title: "Варежка"
     },
 
     {
-        img: "images/cartoons/drama/Звук металла.jpg"
+        img: "images/cartoons/drama/Вверх.jpg",
+        year: 2009,
+        title: "Вверх"
     },
 
     {
-        img: "images/cartoons/drama/Нефть.jpg"
+        img: "images/cartoons/drama/Король Лев 2.jpg",
+        year: 1998,
+        title: "Король Лев 2"
     },
 
     {
-        img: "images/cartoons/drama/Манчестер у моря.jpg"
+        img: "images/cartoons/drama/Песнь моря.webp",
+        year: 2014,
+        title: "Песнь моря"
     },
 
     {
-        img: "images/cartoons/drama/Учитель на замену.jpg"
+        img: "images/cartoons/drama/По ту сторону изгороди.jpg",
+        year: 2014,
+        title: "По ту сторону изгороди"
     }
+
 ];
 
 const dramaSlider = document.querySelector('.drama-slider');
@@ -93,33 +109,49 @@ renderMovies(dramaMovies, dramaSlider);
 // БОЕВИКИ--------------------------------------
 
 const actionMovies = [
+
     {
-        img: "images/cartoons/action/Эквилибриум.webp"
+        img: "images/cartoons/action/Астерикс из Галлии.jpg",
+        year: 1967,
+        title: "Астерикс из Галлии"
     },
 
     {
-        img: "images/cartoons/action/Джон Уик.jpg"
+        img: "images/cartoons/action/Атлантида Затерянный мир.jpg",
+        year: 2001,
+        title: "Атлантида: Затерянный мир"
     },
 
     {
-        img: "images/cartoons/action/Патруль По законам улиц.jpg"
+        img: "images/cartoons/action/Камуфляж и Шпионаж.jpg",
+        year: 2019,
+        title: "Камуфляж и шпионаж"
     },
 
     {
-        img: "images/cartoons/action/Риддик.jpg"
+        img: "images/cartoons/action/Легенда о волках.jpg",
+        year: 2020,
+        title: "Легенда о волках"
     },
 
     {
-        img: "images/cartoons/action/Миссия Невыполнима.jpeg"
+        img: "images/cartoons/action/Пес самурай и Город кошек.jpg",
+        year: 2022,
+        title: "Пес-самурай и город кошек"
     },
 
     {
-        img: "images/cartoons/action/300 спартанцев.jpg"
+        img: "images/cartoons/action/Стражи Терракоты.jpg",
+        year: 2021,
+        title: "Стражи Терракоты"
     },
 
     {
-        img: "images/cartoons/action/Убийца.jpg"
+        img: "images/cartoons/action/Трансформеры Начало.jpg",
+        year: 2024,
+        title: "Трансформеры: Начало"
     }
+
 ];
 
 const actionSlider = document.querySelector('.action-slider');
@@ -177,33 +209,49 @@ renderMovies(thrillerMovies, thrillerSlider);
 // ДЕТЕКТИВЫ--------------------------------------
 
 const detectiveMovies = [
+
     {
-        img: "images/cartoons/detective/Возмездие.jpg"
+        img: "images/cartoons/detective/Великий Мышиный сыщик.png",
+        year: 1986,
+        title: "Великий мышиный сыщик"
     },
 
     {
-        img: "images/cartoons/detective/Достать Ножи.jpg"
+        img: "images/cartoons/detective/Гравити Фолз.jpg",
+        year: 2012,
+        title: "Гравити Фолз"
     },
 
     {
-        img: "images/cartoons/detective/Зодиак.jpg"
+        img: "images/cartoons/detective/Плохие парни.jpg",
+        year: 2022,
+        title: "Плохие парни"
     },
 
     {
-        img: "images/cartoons/detective/Иллюзия Обмана.jpg"
+        img: "images/cartoons/detective/Сказочный патруль.jpg",
+        year: 2016,
+        title: "Сказочный патруль"
     },
 
     {
-        img: "images/cartoons/detective/Начало.jpg"
+        img: "images/cartoons/detective/Следствие ведут колобки.jpg",
+        year: 1986,
+        title: "Следствие ведут колобки"
     },
 
     {
-        img: "images/cartoons/detective/Престиж.jpg"
+        img: "images/cartoons/detective/Шерлок Гномс.jpg",
+        year: 2018,
+        title: "Шерлок Гномс"
     },
 
     {
-        img: "images/cartoons/detective/Шерлок Холмс.jpg"
+        img: "images/cartoons/detective/Шерлок Як.jpg",
+        year: 2011,
+        title: "Шерлок Як"
     }
+
 ];
 
 const detectiveSlider = document.querySelector('.detective-slider');
@@ -212,33 +260,49 @@ renderMovies(detectiveMovies, detectiveSlider);
 // КОМЕДИЯ----------------------------------------
 
 const comedyMovies = [
+
     {
-        img: "images/cartoons/comedy/Смешарики.jpg"
+        img: "images/cartoons/comedy/Смешарики.jpg",
+        year: 2003,
+        title: "Смешарики"
     },
 
     {
-        img: "images/cartoons/comedy/Жил-Был Пес.webp"
+        img: "images/cartoons/comedy/Жил-Был Пес.webp",
+        year: 1982,
+        title: "Жил-был пёс"
     },
 
     {
-        img: "images/cartoons/comedy/Зверополис.webp"
+        img: "images/cartoons/comedy/Зверополис.webp",
+        year: 2016,
+        title: "Зверополис"
     },
 
     {
-        img: "images/cartoons/comedy/Рататуй.webp"
+        img: "images/cartoons/comedy/Рататуй.webp",
+        year: 2007,
+        title: "Рататуй"
     },
 
     {
-        img: "images/cartoons/comedy/Три Богатыря и Конь на Троне.webp"
+        img: "images/cartoons/comedy/Три Богатыря и Конь на Троне.webp",
+        year: 2021,
+        title: "Три богатыря и Конь на троне"
     },
 
     {
-        img: "images/cartoons/comedy/Зверополис 2.webp"
+        img: "images/cartoons/comedy/Зверополис 2.webp",
+        year: 2025,
+        title: "Зверополис 2"
     },
-    
+
     {
-        img: "images/cartoons/comedy/Мадагаскар.jpg"
+        img: "images/cartoons/comedy/Мадагаскар.jpg",
+        year: 2005,
+        title: "Мадагаскар"
     }
+
 ];
 
 const comedySlider = document.querySelector('.comedy-slider');
@@ -247,33 +311,49 @@ renderMovies(comedyMovies, comedySlider);
 // ПРИКЛЮЧЕНИЯ------------------------------------
 
 const adventureMovies = [
+
     {
-        img: "images/cartoons/adventures/Джон Картер.jpg"
+        img: "images/cartoons/adventures/Шрек.jpg",
+        year: 2001,
+        title: "Шрек"
     },
 
     {
-        img: "images/cartoons/adventures/Круиз по Джунглям.jpg"
+        img: "images/cartoons/adventures/Миграция.jpg",
+        year: 2023,
+        title: "Миграция"
     },
 
     {
-        img: "images/cartoons/adventures/Недруги.jpg"
+        img: "images/cartoons/adventures/пингвины мадагаскара.webp",
+        year: 2014,
+        title: "Пингвины Мадагаскара"
     },
 
     {
-        img: "images/cartoons/adventures/Пираты Карибского Моря.jpg"
+        img: "images/cartoons/adventures/angry birds в кино.jpg",
+        year: 2016,
+        title: "Angry Birds в кино"
     },
 
     {
-        img: "images/cartoons/adventures/Приключения Паддингтона.jpg"
+        img: "images/cartoons/adventures/Удача.jpg",
+        year: 2022,
+        title: "Удача"
     },
 
     {
-        img: "images/cartoons/adventures/Путешествие 2.jpg"
+        img: "images/cartoons/adventures/Элементарно.jpg",
+        year: 2023,
+        title: "Элементарно"
     },
 
     {
-        img: "images/cartoons/adventures/Удивительное путешествие доктора Дулиттла.jpg"
-    }
+        img: "images/cartoons/adventures/босс молокосос рождественский бонус.jpg",
+        year: 2022,
+        title: "Босс-молокосос: Рождественский бонус"
+    },
+
 ];
 
 const adventureSlider = document.querySelector('.adventure-slider');
@@ -282,33 +362,49 @@ renderMovies(adventureMovies, adventureSlider);
 // ФЕНТЕЗИ----------------------------------------
 
 const fantasyMovies = [
+
     {
-        img: "images/cartoons/fantasy/Аквамен.jpg"
+        img: "images/cartoons/fantasy/angry birds в кино.jpg",
+        year: 2016,
+        title: "Angry Birds в кино"
     },
 
     {
-        img: "images/cartoons/fantasy/Бегущий По Лезвию.jpg"
+        img: "images/cartoons/fantasy/Корпорация монстров.jpg",
+        year: 2001,
+        title: "Корпорация монстров"
     },
 
     {
-        img: "images/cartoons/fantasy/Гарри Поттер и Принц Полукровка.jpg"
+        img: "images/cartoons/fantasy/Кунг Фу Панда 2.jpg",
+        year: 2011,
+        title: "Кунг-фу Панда 2"
     },
 
     {
-        img: "images/cartoons/fantasy/Фантастические Твари.jpg"
+        img: "images/cartoons/fantasy/Кунг Фу Панда.jpg",
+        year: 2008,
+        title: "Кунг-фу Панда"
     },
 
     {
-        img: "images/cartoons/fantasy/Сумерки.jpg"
+        img: "images/cartoons/fantasy/Монстра на Каникулах.jpg",
+        year: 2012,
+        title: "Монстры на каникулах"
     },
 
     {
-        img: "images/cartoons/fantasy/Властелин Колец.jpg"
+        img: "images/cartoons/fantasy/Шрек.jpg",
+        year: 2001,
+        title: "Шрек"
     },
 
     {
-        img: "images/cartoons/fantasy/Малифисента.jpg"
+        img: "images/cartoons/fantasy/Райа и последний дракон.jpg",
+        year: 2021,
+        title: "Райя и последний дракон"
     }
+
 ];
 
 const fantasySlider = document.querySelector('.fantasy-slider');
@@ -317,35 +413,50 @@ renderMovies(fantasyMovies, fantasySlider);
 // ИСТОРИЧЕСКИЕ-----------------------------------
 
 const historicalMovies = [
+
     {
-        img: "images/cartoons/historical/Царство Небесное.jpg"
+        img: "images/cartoons/historical/Ван Гог С любовью, Винсент.jpeg",
+        year: 2017,
+        title: "Ван Гог. С любовью, Винсент"
     },
 
     {
-        img: "images/cartoons/historical/Титаник.jpg"
+        img: "images/cartoons/historical/Генерал Джордж Вашингтон.jpg",
+        year: 2000,
+        title: "Генерал Джордж Вашингтон"
     },
 
     {
-        img: "images/cartoons/historical/Список Шиндлера.jpg"
+        img: "images/cartoons/historical/Забытое чудо.jpg",
+        year: 2022,
+        title: "Забытое чудо"
     },
 
     {
-        img: "images/cartoons/historical/Оппенгеймер.jpg"
+        img: "images/cartoons/historical/Князь Владимир.jpg",
+        year: 2006,
+        title: "Князь Владимир"
     },
 
     {
-        img: "images/cartoons/historical/Дюнкерк.jpg"
+        img: "images/cartoons/historical/Легенда о волках.jpg",
+        year: 2020,
+        title: "Легенда о волках"
     },
 
     {
-        img: "images/cartoons/historical/Гладиатор.jpg"
+        img: "images/cartoons/historical/Покахонтас.jpg",
+        year: 1995,
+        title: "Покахонтас"
     },
 
     {
-        img: "images/cartoons/historical/Выживший.jpg"
+        img: "images/cartoons/historical/Василиса Микулишна.jpg",
+        year: 1975,
+        title: "Василиса Микулишна"
     }
-];
 
+];
 const historicalSlider = document.querySelector('.historical-slider');
 renderMovies(historicalMovies, historicalSlider);
 
