@@ -313,47 +313,47 @@ renderMovies(comedyMovies, comedySlider);
 // ПРИКЛЮЧЕНИЯ------------------------------------
 
 const adventureMovies = [
-
+    
     {
-        img: "images/films/adventures/Джон Картер.jpg",
-        year: 2012,
-        title: "Джон Картер"
-    },
-
-    {
-        img: "images/films/adventures/Круиз по Джунглям.jpg",
         year: 2021,
-        title: "Круиз по джунглям"
+        title: "Вокруг света за 80 дней",
+        img: "images/shows/adventures/Вокруг света за 80 дней.jpg"
     },
 
     {
-        img: "images/films/adventures/Недруги.jpg",
-        year: 2017,
-        title: "Недруги"
+        year: 2011,
+        title: "Игра Престолов",
+        img: "images/shows/adventures/Игра Престолов.jpg"
     },
 
     {
-        img: "images/films/adventures/Пираты Карибского Моря.jpg",
-        year: 2003,
-        title: "Пираты Карибского моря"
+        year: 2021,
+        title: "Ловкий плут",
+        img: "images/shows/adventures/Ловкий плут.webp"
     },
 
     {
-        img: "images/films/adventures/Приключения Паддингтона.jpg",
+        year: 2019,
+        title: "Мандалорец",
+        img: "images/shows/adventures/Мандалорец.jpg"
+    },
+
+    {
+        year: 2024,
+        title: "Фоллаут",
+        img: "images/shows/adventures/Фоллаут.webp"
+    },
+
+    {
+        year: 2009,
+        title: "Хранилище 13",
+        img: "images/shows/adventures/Хранилище 13.jpg"
+    },
+
+    {
         year: 2014,
-        title: "Приключения Паддингтона"
-    },
-
-    {
-        img: "images/films/adventures/Путешествие 2.jpg",
-        year: 2012,
-        title: "Путешествие 2"
-    },
-
-    {
-        img: "images/films/adventures/Удивительное путешествие доктора Дулиттла.jpg",
-        year: 2020,
-        title: "Удивительное путешествие доктора Дулиттла"
+        title: "Чужестранка",
+        img: "images/shows/adventures/Чужестранка.webp"
     }
 
 ];
