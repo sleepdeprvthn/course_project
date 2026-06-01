@@ -29,10 +29,6 @@ searchForm.addEventListener('submit', (event) => {
 
 });
 
-searchForm.addEventListener('submit', (event) => {
-
-})
-
 // Добавление HTML-кода для интегрирования карточек
 
 function renderMovies(moviesArray, slider) {
